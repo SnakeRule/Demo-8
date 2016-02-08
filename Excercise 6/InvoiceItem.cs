@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Excercise_6
 {
-    class InvoiceItem
+    public class InvoiceItem
     {
         /// <summary>
         /// The invoice item data is stored here

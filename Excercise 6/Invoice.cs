@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Excercise_6
 {
-    class Invoice
+    public class Invoice
     {
         public List<InvoiceItem> invoice;
         public string CustomerName { get; set; }
@@ -34,7 +34,7 @@ namespace Excercise_6
         /// In this Total method the costs of all items in the list are added together for a total price
         /// </summary>
         /// <returns></returns>
-        private string Total()
+        public string Total()
         {
             double total = 0;
             foreach (InvoiceItem invoice in invoice)
