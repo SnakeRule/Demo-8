@@ -1,4 +1,13 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿/*
+* Copyright (C) Jere-Joonas Valtanen
+*
+* This file is part of JAMK object oriented programming course
+*
+* Created: 8.2.2016
+*Author: Jere-Joonas Valtanen
+*/
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Demo_8;
 using System;
 using System.Collections.Generic;

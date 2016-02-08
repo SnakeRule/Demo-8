@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+* Copyright (C) Jere-Joonas Valtanen
+*
+* This file is part of JAMK object oriented programming course
+*
+* Created: 8.2.2016
+*Author: Jere-Joonas Valtanen
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +19,9 @@ namespace Excercise_2
     {
         static void Main(string[] args)
         {
-            Cart cart = new Cart();
+            Cart cart = new Cart(); // creating a new Cart object, a list containing Item class objects is created as well
 
+            // Creating Item objects and adding them to the cart list
             Item milk = new Item { Name = "Milk", Price = "0,9 e" };
             cart.AddtoCart(milk);
 
