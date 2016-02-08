@@ -17,7 +17,7 @@ namespace Excercise_5
         public static double Average(double[] array)
         {
             Console.WriteLine("Ave : {0:F2}",array.Average());
-            return array.Sum();
+            return array.Average();
         }
 
         public static double Min(double[] array)
